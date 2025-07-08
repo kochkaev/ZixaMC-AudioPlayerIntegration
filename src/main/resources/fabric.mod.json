@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "zixamc-audioplayerintegration",
+  "version": "${version}",
+  "name": "ZixaMC-AudioPlayerIntegration",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "Apache-2.0",
+  "icon": "assets/zixamc-audioplayerintegration/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "ru.kochkaev.zixamc.audioplayerintegration.ZixaMCAudioPlayerIntegration"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
